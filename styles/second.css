@@ -1,4 +1,13 @@
 
+#title {
+	margin: 14px;
+	font-weight: bold;
+	font-size: 1.2em;
+	
+}
+
+
+
 
 body {
 	border: 0px;
@@ -24,14 +33,6 @@ body {
 	position: fixed;
 	
 	
-}
-
-#title {
-	margin: 14px;
-	font-weight: bold;
-	font-size: 1.2em;
-	
-}
 /*
  #nav {
      border-bottom:  2px solid #900;
