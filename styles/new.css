@@ -1,0 +1,68 @@
+#title {
+  margin: 14px; 
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: yellow;
+}
+
+body {
+  background-color: black;
+  font-family: "Times New Roman";
+  width: 85%;
+  font-size: 200%;
+  color: white;
+  
+}
+
+#content {
+  margin-left: 160px;	
+  max-width: 500px;
+  position: absolute;
+  padding-right: 70px; 
+  padding: center;
+  float:left;
+}
+
+.background-text {
+  background-image: url("images/trying.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+.features {
+  overflow: auto; 
+  height: 100%; 
+  background-color: green; 
+  width: 100%;
+  
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+img {
+	border-radius: 4px;
+	height: auto;
+	max-width: 100%;
+}
