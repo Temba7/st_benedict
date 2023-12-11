@@ -21,6 +21,7 @@ body {
   padding-right: 70px; 
   padding: center;
   float:left;
+  text-shadow: 2px 2px black;
 }
 
 .background-text {
