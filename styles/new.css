@@ -2,7 +2,8 @@
   margin: 14px; 
   font-weight: bold;
   font-size: 1.2em;
-  background-color: black;
+  background-color: white;
+  color: black;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   font-family: "Times New Roman";
   width: 85%;
   font-size: 200%;
-  color: white;
+  color: black;
   
 }
 
