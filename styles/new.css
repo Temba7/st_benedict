@@ -2,11 +2,11 @@
   margin: 14px; 
   font-weight: bold;
   font-size: 1.2em;
-  background-color: White;
+  background-color: black;
 }
 
 body {
-  background-color: black;
+  background-color: white;
   font-family: "Times New Roman";
   width: 85%;
   font-size: 200%;
