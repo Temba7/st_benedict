@@ -53,6 +53,12 @@ body {
   position: relative;
   text-align: center;
   color: white;
+  height: 100vh;
+  background-image: url("images/trying.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .text {
