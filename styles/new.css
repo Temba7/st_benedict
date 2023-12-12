@@ -52,7 +52,7 @@ body {
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: green;
   height: 100vh;
   background-image: url("images/trying.jpg");
   background-repeat: no-repeat;
