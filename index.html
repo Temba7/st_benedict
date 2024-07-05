@@ -4,109 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> St Benedict Parish </title>
-    <style>
-        /* Add your custom CSS styles here */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            background-color: #444;
-            color: yellow;
-            padding: 10px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <title>St Benedict Parish</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <h1> St Benedict The Moor </h1>
+        <h1>St Benedict The Moor</h1>
     </header>
 
     <nav>
-        <a href="#home">Home</a> |
-        <a href="#about">About Us</a> |
-        <a href="#mass times">Mass Times</a> |
-        <a href="#events">Events</a> |
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#mass-times">Mass Times</a>
+        <a href="#events">Events</a>
         <a href="#contact">Contact</a>
     </nav>
 
-    <section id="home">
-        <h2>Welcome to Our Church</h2>
-		<img src="images\Picture1.jpg" alt="Extra Image"> 
-		
-        <p>Discover the love of God and the fellowship of our community.</p>
-    </section>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Church</h2>
+            <img src="images/Picture1.jpg" alt="Church Image" class="img-fluid">
+            <p>Discover the love of God and the fellowship of our community.</p>
+        </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p> We, the people of God of Saint Benedict the Moor Catholic Church, Omaha, Nebraska, are joined together in faith, worship, and service to our community. 
-		We are called to love one another as the Father loves us and to set an example of caring compassion for everyone we meet. We are proud of our African American heritage, 
-		spirituality, and culture, which we eagerly share with one another, our church, and our community. Our goal is to reach out to those who hunger for the Word of God and seek a 
-		welcoming place to worship and grow in faith. We are determined to live up to this calling we walk together on our journey to the kingdom. </p>
-    </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We, the people of God of Saint Benedict the Moor Catholic Church, Omaha, Nebraska, are joined together in faith, worship, and service to our community. 
+            We are called to love one another as the Father loves us and to set an example of caring compassion for everyone we meet. We are proud of our African American heritage, 
+            spirituality, and culture, which we eagerly share with one another, our church, and our community. Our goal is to reach out to those who hunger for the Word of God and seek a 
+            welcoming place to worship and grow in faith. We are determined to live up to this calling we walk together on our journey to the kingdom.</p>
+        </section>
 
-    <section id="mass times">
-        <h2> Mass Times</h2>
-        
-		<p> Sundays: 8: 30a.m </p>
-	    	<p> Weekday Masses: 08 : 00a.m. (Monday and Weeksday) <br>
-	    	    Holy Days of Obligation (see Bulletin)  </p>
-		
-		
-    </section>
+        <section id="mass-times">
+            <h2>Mass Times</h2>
+            <ul>
+                <li>Sundays: 8:30 a.m.</li>
+                <li>Weekday Masses: 8:00 a.m. (Monday and Weekdays)</li>
+                <li>Holy Days of Obligation (see Bulletin)</li>
+            </ul>
+        </section>
 
-    <section id="events">
-        <h2>Upcoming Events</h2>
-        <p> Weekly 2024 Lenten Fish Fry </p>
-	<p> 11:00 a.m. until 6:00 p.m. </p>
-	<p> February 16th and 23rd March 1st, 8th, 15th and 22nd </p>
-	<p> Bake or Fried Catfish dinner $20</p>
-   
-    
-    
-    </section>
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <p>Weekly 2024 Lenten Fish Fry</p>
+            <p>11:00 a.m. until 6:00 p.m.</p>
+            <p>February 16th and 23rd, March 1st, 8th, 15th, and 22nd</p>
+            <p>Bake or Fried Catfish dinner $20</p>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Reach out to us for more information or if you have any questions.</p>
-		
-		<p> 2423 Grant Street, Omaha, Nebraska 68111 <p>
-		
-		<p> 402-348-0631 <p>
-		stbenedictomaha@gmail.com <br>
-		
-		<a href="https://www.facebook.com/stbenthemoor" target="black">Facebook <br/> </a>
-		
-		
-		
-		
-		
-    </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for more information or if you have any questions.</p>
+            <address>
+                2423 Grant Street, Omaha, Nebraska 68111<br>
+                <a href="tel:+14023480631">402-348-0631</a><br>
+                <a href="mailto:stbenedictomaha@gmail.com">stbenedictomaha@gmail.com</a><br>
+                <a href="https://www.facebook.com/stbenthemoor" target="_blank">Facebook</a>
+            </address>
+        </section>
+    </div>
 
     <footer>
         <p>&copy; 2024 St Benedict Parish. All rights reserved.</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
